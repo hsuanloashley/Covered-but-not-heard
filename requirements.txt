@@ -1,0 +1,25 @@
+# core
+pandas>=2.1
+numpy
+scipy
+statsmodels
+scikit-learn
+matplotlib
+seaborn
+tabulate          # DataFrame.to_markdown (revision/common.py)
+# time series / validation
+ruptures
+krippendorff      # inter-coder alpha (revision/16_score_validation.py)
+# text / networks (notebooks)
+nltk
+newspaper3k
+vaderSentiment
+networkx
+netwulf
+python-louvain
+# LLM access
+langchain-dartmouth
+openai
+# not yet used, needed if you add the Leiden label network (paper Fig A1)
+# leidenalg
+# python-igraph
